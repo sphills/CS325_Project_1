@@ -1,16 +1,17 @@
 import requests
 from bs4 import BeautifulSoup
 
-url = 'https://www.reuters.com/markets/commodities/coal-india-beats-third-quarter-profit-estimates-higher-production-2024-02-12/'
+url = 'https://www.bbc.com/future/article/20231130-climate-crisis-the-15c-global-warming-threshold-explained'
 page = requests.get(url)
-soup = BeautifulSoup(page.content, 'html.parser')
-articles = soup.findAll('div', {'class': 'list media_rows list-berita'})
-links = []
+soup = BeautifulSoup(page.content, 'lxml')
+
+articles = soup.findAll('section', {'class': 'sc-4e574cd-0'})
+'''links = []
 
 for article in articles:
 
     hrefs = article.find_all('a', href=True)
     for href in hrefs:
         links.append(href['href'])
-
-print(links)
+'''
+print(soup.get_text())
