@@ -5,7 +5,8 @@ url = 'https://www.bbc.com/future/article/20231130-climate-crisis-the-15c-global
 page = requests.get(url)
 soup = BeautifulSoup(page.content, 'lxml')
 
-articles = soup.findAll('section', {'class': 'sc-4e574cd-0'})
+articles = soup.findAll('p', {'class': 'sc-eb7bd5f6-0 fYAfXe'})
+#articles = soup.findAll('section', {'class': 'sc-e11d1f0-0 eVThlc'})
 '''links = []
 
 for article in articles:
@@ -14,4 +15,8 @@ for article in articles:
     for href in hrefs:
         links.append(href['href'])
 '''
-print(soup.get_text())
+for article in articles:
+    print(article.get_text())
+
+#print(soup.get_text())
+print(articles)
