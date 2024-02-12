@@ -14,7 +14,7 @@ for index, article in enumerate(articles):
         lines.append(article.get_text())
 
 
-file = open("BBC Climate Crisis Summary.txt", "a")
+file = open("BBC Climate Crisis Summary.txt", "w")
 for line in lines:
     file.write(line + "\n")
 file.close()
