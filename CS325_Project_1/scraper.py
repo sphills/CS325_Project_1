@@ -3,7 +3,8 @@ import argparse
 from bs4 import BeautifulSoup
 
 parser = argparse.ArgumentParser(description='Scrape data from a given article from the BBC news agency.')
-parser.add_argument('-a', '--article_URL', type=str, default="https://www.bbc.com/future/article/20231130-climate-crisis-the-15c-global-warming-threshold-explained", help="The URL of the article you'd like summarized.")
+parser.add_argument('-i', '--check_input_file', type=bool, default=True, help="Whether or not to parse the URLs listed in the input_articles.txt file.")
+parser.add_argument('-a', '--article_URL', type=str, help="The URL of the article you'd like summarized.")
 
 args = parser.parse_args()
 url = args.article_URL
