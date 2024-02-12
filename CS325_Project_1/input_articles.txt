@@ -1,5 +1,5 @@
-'https://www.bbc.com/future/article/20231130-climate-crisis-the-15c-global-warming-threshold-explained'
-'https://www.bbc.com/future/article/20240206-craftivism-the-introverts-guide-to-gentle-protest-for-climate'
-'https://www.bbc.com/future/article/20240131-how-planting-trees-is-bringing-clean-water-to-a-tropical-nation'
-'https://www.bbc.com/future/article/20240207-climate-change-will-bring-a-megaflood-to-california'
-'https://www.bbc.com/future/article/20240207-are-cars-getting-too-big-for-the-road'
+https://www.bbc.com/future/article/20231130-climate-crisis-the-15c-global-warming-threshold-explained
+https://www.bbc.com/future/article/20240206-craftivism-the-introverts-guide-to-gentle-protest-for-climate
+https://www.bbc.com/future/article/20240131-how-planting-trees-is-bringing-clean-water-to-a-tropical-nation
+https://www.bbc.com/future/article/20240207-climate-change-will-bring-a-megaflood-to-california
+https://www.bbc.com/future/article/20240207-are-cars-getting-too-big-for-the-road
