@@ -33,6 +33,6 @@ file_name = (url[(url.rfind('/') + 10):len(url)].replace('-', ' ').title() + " S
 file = open(file_name, "w")
 
 for line in lines:
-    file.write(line + "\n")
+    file.write(line.replace('\u200a', ' ') + "\n")
 
 file.close()
