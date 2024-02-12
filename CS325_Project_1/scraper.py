@@ -23,6 +23,6 @@ file = open(file_name, "w")
 for line in lines:
     file.write(line.replace('\u200a', ' ') + "\n")
 
-print("Your article was successfully summarized and written to the file\"", file_name + "\" in the current directory")
+print("Your article was successfully summarized and written to the file", "\"" + file_name + "\"", "in the current directory")
 
 file.close()
