@@ -1,0 +1,4 @@
+name: scraper
+channels:
+  - defaults
+prefix: C:\Users\Sage2\miniconda3\envs\scraper

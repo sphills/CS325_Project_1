@@ -31,9 +31,11 @@ def scrape_url(url: str):
 
     file.close()
 
-if (check_input_file):
-    input_file = open("input_articles.txt", "r")
-    for line in input_file:
-        scrape_url(line.strip())
+#if (check_input_file):
+input_file = open("input_articles.txt", "r")
+for line in input_file:
+    scrape_url(line.strip())
+'''
 elif (check_input_file) and (url is not None):
     scrape_url(url)
+'''
