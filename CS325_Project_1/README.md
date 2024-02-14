@@ -18,14 +18,14 @@ clone create --name myclone --clone scraper
 ```
 to download the required libraries and create an environment suitable to run scraper.py.
 
-Once that's completed, use the command
+Once that's completed, make sure you are in the top CS325_Project_1 directory, then use the command
 ```commandline
 conda activate myclone
 ```
-to start using the same conda environment as the one scraper.py was developed in. Then, once that environment has been activated, use
+to start using the same conda environment as the one scraper.py was developed in. Once that environment has been activated, navigate into the subdirectory named CS325_Project_1 and use the 
 ```commandline
 python scraper.py
 ```
-in your conda terminal to run the program. This should create five files, which you can read ad-free!
+command in your conda terminal to run the program. This should create five files, which you can read ad-free!
 
 ### Congratulations, you've successfully run scraper.py!
